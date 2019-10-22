@@ -34,5 +34,5 @@ def find_the_cheese(arr)
   # return the first string that is a cheese with include?
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_included = arr.include?(cheese_types)
+  cheese_included = arr.include?(cheese_types.split)
 end
